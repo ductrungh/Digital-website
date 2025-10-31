@@ -1,0 +1,128 @@
+/* Existing styles from product1.css */
+.bruh {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 30px;
+}
+.carousel {
+    max-width: 800px; /* Set a maximum width */
+    margin: 20px auto; /* Center the carousel and add some top/bottom margin */
+    border-radius: 15px; /* Adjust the value for more or less rounding */
+    overflow: hidden; /* Ensures that the rounded corners are applied to the images */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+/* New styles for decoration and table */
+body {
+    background: linear-gradient(to bottom, #f8f9fa, #e9ecef); /* Light gradient background */
+}
+
+.product-detail-content {
+    padding-top: 140px; /* Adjust to account for fixed header */
+    padding-bottom: 50px;
+}
+
+.product-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.product-title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #343a40;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.product-info {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.product-price {
+    font-size: 2.2em;
+    color: #007bff ; /* Red for price */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.btn-add-to-cart,
+.btn-buy-now {
+    background-color: #007bff; /* Blue for buttons */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 0 10px;
+}
+
+
+
+.section-heading {
+    text-align: center;
+    font-size: 2em;
+    color: #343a40;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.product-spec-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.product-spec-table th,
+.product-spec-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #dee2e6;
+}
+
+.product-spec-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    color: #495057;
+}
+
+.product-spec-table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.product-spec-table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+.product-description {
+    margin-top: 30px;
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #495057;
+    background-color: #fefefe;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+}
+
+.product-description p {
+    margin-bottom: 15px;
+}
+img{
+    height: 100%;
+    width: auto;
+}
